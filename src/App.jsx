@@ -481,16 +481,11 @@ export default function App() {
               <label style={styles.label}>Your role</label>
               <select style={styles.select} value={role} onChange={e => setRole(e.target.value)}>
                 <option value="">Select your role</option>
-                <option>Head of Marketing</option>
+                <option>CMO</option>
                 <option>VP Marketing</option>
-                <option>Head of Sales</option>
-                <option>VP Sales</option>
-                <option>Head of Product</option>
-                <option>VP Product</option>
-                <option>Head of Engineering</option>
-                <option>VP Engineering</option>
-                <option>Head of Operations</option>
-                <option>VP Operations</option>
+                <option>Head of Marketing</option>
+                <option>Marketing Director</option>
+                <option>Marketing Manager</option>
                 <option>Other</option>
               </select>
             </div>
@@ -512,13 +507,10 @@ export default function App() {
               <select style={styles.select} value={reportsTo} onChange={e => setReportsTo(e.target.value)}>
                 <option value="">Select who you report to</option>
                 <option>CEO</option>
-                <option>COO</option>
                 <option>CRO</option>
+                <option>COO</option>
                 <option>CMO</option>
-                <option>CFO</option>
-                <option>CTO</option>
                 <option>VP</option>
-                <option>Director</option>
                 <option>Other</option>
               </select>
             </div>
